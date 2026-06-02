@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there?",
+        "hii",
+        "hey",
+        "heyy"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": [
+        "What time do you open?",
+        "Are you open on weekends?",
+        "What are your hours?",
+        "When do you close?"
+      ],
+      "responses": [
+        "Our hours are Monday to Friday, 9 AM to 6 PM.",
+        "We are open weekdays from 9 AM to 6 PM. We are closed on weekends."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "Track my package",
+        "What is the status of my order?",
+        "Has my order shipped yet?"
+      ],
+      "responses": [
+        "Please provide your order number, and I will check the status for you.",
+        "You can track your order using the link sent to your email."
+      ]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "How do I get a refund?",
+        "Can I return an item?",
+        "What is your return policy?",
+        "I want my money back"
+      ],
+      "responses": [
+        "We offer a 30-day return policy. Items must be in original condition.",
+        "You can request a refund within 30 days of purchase through your account."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, bye",
+        "Have a good day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Thank you for chatting with us. See you soon!",
+        "Bye! Let us know if you need anything else."
+      ]
+    }
+  ]
+}
